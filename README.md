@@ -18,7 +18,7 @@ I am a Senior DevOps Engineer from Colombia
 ## Expertise
 
 <img align="left" alt="aws" src="https://img.shields.io/badge/Amazon%20AWS-%23232F3E?logo=amazon-aws&logoColor=white&style=for-the-badge" />
-<img align="left" alt="aws" src="https://img.shields.io/badge/Terraform%20%23232F3E?logo=terraform&logoColor=white&style=for-the-badge" />
+<img align="center" alt="aws" src="https://img.shields.io/badge/Amazon%20AWS-%23232F3E?logo=amazon-aws&logoColor=white&style=for-the-badge" />
 
 <br>
 <br>
