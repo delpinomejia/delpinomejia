@@ -13,10 +13,6 @@ I am a Senior DevOps Engineer from Colombia
 
 [<img align="left" alt="twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />](https://twitter.com/jpdelpino)
 
-<br>
-<br>
-## Expertise
-[<img align="left" alt="aws" src="https://img.shields.io/badge/Amazon%20AWS-%23232F3E?logo=amazon-aws&logoColor=white&style=for-the-badge" />]
 
 
 <br>
