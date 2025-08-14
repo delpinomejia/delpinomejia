@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo del Pino M. - Cloud Infrastructure & DevOps Expert</title>
+    <meta name="description" content="Pablo del Pino M. - Technology Professional specializing in Kubernetes, cloud infrastructure, system administration, and DevOps automation.">
+    <meta name="keywords" content="Kubernetes, Cloud Infrastructure, DevOps, System Administration, Docker, Proxmox, DNS, Network Infrastructure">
+    <meta name="author" content="Pablo del Pino M.">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.delpinomejia.com/">
+    <meta property="og:title" content="Pablo del Pino M. - Cloud Infrastructure & DevOps Expert">
+    <meta property="og:description" content="Technology Professional specializing in Kubernetes, cloud infrastructure, and system administration.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Pablo del Pino M.</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Pablo del Pino M.</span>
+                </h1>
+                <p class="hero-subtitle">Cloud Infrastructure & DevOps Expert</p>
+                <p class="hero-description">
+                    Specialized in Kubernetes orchestration, system administration, 
+                    and building scalable cloud infrastructure solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Get In Touch</a>
+                    <a href="#about" class="btn-secondary">Learn More</a>
+                </div>
+                <div class="hero-social">
+                    <a href="mailto:pablo@delpinomejia.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/delpinoconsulting" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://gitlab.com/pdelpino" title="GitLab"><i class="fab fa-gitlab"></i></a>
+                    <a href="https://www.linkedin.com/in/pablodelpino" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="card-header">
+                        <div class="terminal-buttons">
+                            <span class="btn-close"></span>
+                            <span class="btn-minimize"></span>
+                            <span class="btn-maximize"></span>
+                        </div>
+                        <span class="terminal-title">~/infrastructure</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="code-line">
+                            <span class="prompt">$</span>
+                            <span class="command">kubectl get nodes</span>
+                        </div>
+                        <div class="code-line output">
+                            <span>NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STATUS&nbsp;&nbsp;&nbsp;ROLES</span>
+                        </div>
+                        <div class="code-line output">
+                            <span>k8s-master&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ready&nbsp;&nbsp;&nbsp;&nbsp;control-plane</span>
+                        </div>
+                        <div class="code-line output">
+                            <span>k8s-worker-01&nbsp;&nbsp;&nbsp;&nbsp;Ready&nbsp;&nbsp;&nbsp;&nbsp;worker</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="prompt">$</span>
+                            <span class="command typing">docker ps | grep running</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Technology professional with extensive experience in modern infrastructure</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Cloud Infrastructure Specialist</h3>
+                    <p>
+                        I'm a technology professional with extensive experience in cloud infrastructure, 
+                        Kubernetes cluster management, and system administration. My expertise spans across 
+                        managing complex distributed systems, network infrastructure with DNS servers, 
+                        and virtualization platforms like Proxmox.
+                    </p>
+                    <p>
+                        I specialize in building and maintaining robust IT infrastructure, with hands-on 
+                        experience in Kubernetes deployments, Linux system administration, and network security. 
+                        My passion lies in automation, DevOps practices, and creating efficient, scalable 
+                        technology solutions.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-server"></i>
+                            <div>
+                                <h4>Infrastructure Management</h4>
+                                <p>Kubernetes clusters, Proxmox virtualization, DNS servers</p>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-network-wired"></i>
+                            <div>
+                                <h4>Network Architecture</h4>
+                                <p>Pi-hole DNS, network security, distributed systems</p>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-code-branch"></i>
+                            <div>
+                                <h4>DevOps & Automation</h4>
+                                <p>GitLab CI/CD, Docker containers, infrastructure as code</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">System Uptime</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <p>Expertise in modern cloud technologies and infrastructure management</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-dharmachakra"></i> Container Orchestration</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Kubernetes</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Docker Compose</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fab fa-linux"></i> System Administration</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Linux/Unix Systems</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Proxmox</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Network Configuration</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud Platforms</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Cloudflare</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Infrastructure as Code</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-code-branch"></i> DevOps Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">GitLab CI/CD</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git Version Control</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Monitoring & Logging</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Infrastructure Experience</h2>
+                <p>Key projects and infrastructure implementations</p>
+            </div>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Kubernetes Cluster Migration</h3>
+                        <span class="timeline-date">2024</span>
+                        <p>Successfully migrated Kubernetes control plane from 192.168.200.215 to 192.168.200.230, ensuring zero downtime and maintaining all running services.</p>
+                        <div class="tech-tags">
+                            <span class="tag">Kubernetes</span>
+                            <span class="tag">Control Plane Migration</span>
+                            <span class="tag">High Availability</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>DNS Infrastructure Setup</h3>
+                        <span class="timeline-date">2023-2024</span>
+                        <p>Deployed redundant DNS servers (192.168.200.150 & 192.168.200.155) running Pi-hole v6 with Unbound for enhanced network security and ad-blocking capabilities.</p>
+                        <div class="tech-tags">
+                            <span class="tag">Pi-hole</span>
+                            <span class="tag">Unbound</span>
+                            <span class="tag">DNS Management</span>
+                            <span class="tag">Keep Alive</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Virtualization Platform</h3>
+                        <span class="timeline-date">2023</span>
+                        <p>Implemented Proxmox virtualization environment hosting Plex and Medusa services, providing centralized media management and automated content acquisition.</p>
+                        <div class="tech-tags">
+                            <span class="tag">Proxmox VE</span>
+                            <span class="tag">Virtualization</span>
+                            <span class="tag">Media Services</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>GitLab CI/CD Implementation</h3>
+                        <span class="timeline-date">2023</span>
+                        <p>Set up GitLab instance with automated CI/CD pipelines, utilizing stored variables for secure deployment processes and maintaining best practices for infrastructure as code.</p>
+                        <div class="tech-tags">
+                            <span class="tag">GitLab</span>
+                            <span class="tag">CI/CD</span>
+                            <span class="tag">Automation</span>
+                            <span class="tag">Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's discuss your infrastructure needs</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>pablo@delpinomejia.com</p>
+                            <p>delpinomejia@proton.me</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(304) 271 1959</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Medellín, Colombia</p>
+                            <p>Available for remote work</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <div>
+                            <h3>Schedule a Meeting</h3>
+                            <p><a href="https://calendly.com/pdelpino/30min" target="_blank">Book a 30-minute consultation</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Pablo del Pino M.</h3>
+                    <p>Cloud Infrastructure & DevOps Expert</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:pablo@delpinomejia.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/delpinoconsulting"><i class="fab fa-github"></i></a>
+                    <a href="https://gitlab.com/pdelpino"><i class="fab fa-gitlab"></i></a>
+                    <a href="https://www.linkedin.com/in/pablodelpino"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pablo del Pino M. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
